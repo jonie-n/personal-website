@@ -1,0 +1,119 @@
+/* Reset body and html to ensure full page usage */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;  /* Ensure body takes full height */
+}
+
+/* General Dashboard styles */
+.dashboard {
+  text-align: center;
+  background-color: #fcd3cf;
+  display: flex;
+  justify-content: flex-start;  /* Align content to the left */
+  flex-direction: column;  /* Ensure elements stack vertically */
+  height: 100vh;  /* Full viewport height */
+  padding-top: 0;  /* Remove any extra padding at the top */
+  margin: 0; /* Ensure no default margin */
+}
+
+/* Entire section should use flex to align left-side and text side by side */
+.entire {
+  margin-top: 70px;
+  width: 100%;
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-direction: row; /* Keep the items side by side */
+  align-items: center; /* Vertically center the items */
+  justify-content: flex-start; /* Align to the left */
+}
+
+/* Left side for the profile image */
+.left-side {
+  width: 40%; /* Set width of image section */
+  display: flex;  /* Ensures the image stays centered in the left section */
+  justify-content: center; /* Center image horizontally within left side */
+}
+
+/* Right side for the text */
+.text {
+  text-align: left;  /* Align text to the left */
+  width: 60%;  /* Set width of the text section */
+  margin-left: 20px; /* Add some space between the image and the text */
+}
+
+/* Buttons section below the text */
+.buttons-section {
+  display: flex; /* Flexbox layout for the buttons */
+  flex-direction: row; /* Stack the buttons vertically */
+  align-items: center; /* Center the buttons horizontally */
+  gap: 10px; /* Space between buttons */
+  width: 100%; /* Ensure the buttons section takes full width */
+  margin-top: 20px; /* Add space above the buttons */
+}
+
+/* Style for circular profile image */
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the circle properly */
+}
+
+/* Header styles */
+.dashboard-header {
+  margin-bottom: 20px;
+  border-radius: 8px; /* Optional: round edges */
+}
+
+.dashboard-header-title {
+  margin: 0;
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  text-align: left;  /* Keep text aligned to the left within the title */
+}
+
+.dashboard-subtitle {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  text-align: left;  /* Keep subtitle text aligned to the left */
+}
+
+.dashboard .logout-button-container {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.dashboard .logout-button-container button {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard .logout-button-container button:hover {
+  background-color: #b72e2a;
+}
+
+/* Social Icons Section */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+  margin-top: 20px; /* Space above the icons */
+}
+
+.social-icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #eba098; /* Change to any color you like when hovered */
+}
