@@ -65,13 +65,13 @@ function Dashboard({ onLogout, onCheckIn }: DashboardProps) {
             </h3>
 
             <div className="social-icons">
-              <a href="https://github.com/jonie" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <a href="https://github.com/jonie-n" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaGithub size={30} />
               </a>
-              <a href="https://linkedin.com/in/jonie" target="_blank" rel="noopener noreferrer" className="social-icon">
+              <a href="https://www.linkedin.com/in/jonie-nishimura-8bb255252/" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaLinkedin size={30} />
               </a>
-              <a href="mailto:jonie@example.com" className="social-icon">
+              <a href="mailto:jonie_nishimura@brown.edu" className="social-icon">
                 <FaEnvelope size={30} />
               </a>
             </div>
