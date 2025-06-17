@@ -1,0 +1,161 @@
+/* Reset body and html to ensure full page usage */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;  /* Ensure body takes full height */
+}
+
+/* General Dashboard styles */
+.dashboard {
+  text-align: center;
+  background-color: #fcd3cf;
+  display: flex;
+  flex-direction: column;  /* Ensure elements stack vertically */
+  min-height: 100vh;  /* Allow growing vertically if needed */
+  height: auto;
+  padding-top: 0;  /* Remove any extra padding at the top */
+  margin: 0;
+}
+
+/* Navbar style */
+.navbar {
+  background-color: #eba098;  /* Add background color */
+  color: #fff; /* Set text color */
+  padding: 10px 0; /* Adjust padding for the navbar */
+  position: relative;  /* Ensure navbar stays at the top */
+  width: 100%;  /* Ensure navbar takes the full width */
+  z-index: 1;  /* Ensure navbar is on top of other content */
+}
+
+/* Navbar Link styles */
+.navbar a {
+  color: #fff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-family: "Mali";
+}
+
+/* Button styles */
+button {
+  padding: 12px 24px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block; /* Prevent stacking */
+  margin: 0; /* Ensure no extra margin that might affect layout */
+  font-family: 'Mali', sans-serif;
+  color: white;
+  background-color: #eba098;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+  opacity: 0.9; /* Slightly reduce transparency on hover */
+}
+
+button:active {
+  transform: scale(0.95); /* Slightly shrink button when clicked */
+}
+
+button:focus {
+  outline: none;  /* Remove focus outline */
+}
+
+.navbar a:hover {
+  color: #eba098;
+}
+
+/* Entire section should use flex to align left-side and text side by side */
+/* Entire section should use flex to align left-side and text side by side */
+.entire {
+  width: 100%;
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-direction: row; /* Keep the items side by side */
+  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start; /* Align to the left */
+  margin-top: 10px; /* Reduced margin-top to ensure it's closer to the navbar */
+  gap: 20px;
+  max-height: 620px;
+}
+
+/* Left side for the profile image */
+.left-side {
+  width: 40%; /* Set width of image section */
+  display: flex;  /* Ensures the image stays centered in the left section */
+  justify-content: center; /* Align image to the top */
+  align-items: flex-start; /* Align image to the top */
+  padding-top: 0; /* Remove any padding pushing it down */
+  margin-top: 70px;
+}
+
+/* Profile image style */
+.profile-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the circle properly */
+}
+
+/* Right side for the text */
+.text {
+  text-align: left;  /* Align text to the left */
+  width: 60%;  /* Set width of the text section */
+  margin-left: 20px; /* Add some space between the image and the text */
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+/* Header styles */
+.dashboard-header {
+  margin-bottom: 20px;
+  border-radius: 8px; /* Optional: round edges */
+}
+
+.dashboard-header-title {
+  margin: 0;
+  color: #eba098;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  text-align: left;  /* Keep text aligned to the left within the title */
+  margin-bottom: 30px;
+}
+
+.dashboard-subtitle {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  text-align: left;  /* Keep subtitle text aligned to the left */
+  margin-bottom: 30px;
+}
+
+.buttons-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Social Icons Section */
+.social-icons {
+  display: flex;
+  justify-content: flex-start;  /* Align the icons to the left */
+  gap: 20px; /* Space between icons */
+  margin-top: 20px; /* Space above the icons */
+  align-items: center; /* Ensure the icons are vertically centered */
+}
+
+.social-icon {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #eba098; /* Change to any color you like when hovered */
+}

@@ -1,0 +1,253 @@
+/* Base font style */
+.check-user-locations-page {
+  font-family: 'Mali', sans-serif;
+}
+
+.check-user-locations-header {
+  text-align: center;
+  position: relative; /* Keeps the header context for absolute positioning */
+}
+
+h1 {
+  color: purple;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.user-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items for consistency */
+}
+
+/* Email input field */
+.email-input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 0px solid #ccc;
+  font-family: 'Mali', sans-serif;
+  color: #333; /* Change text color */
+  background-color: #f0f0f0; /* Background color */
+  width: 600px;
+  height: 25px;
+}
+
+/* User box styles */
+.user-box {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 600px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to the left */
+}
+
+.user-box:hover {
+  background-color: #dcdcdc; /* Highlight when hovered */
+}
+
+.user-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-email {
+  margin: 0;
+}
+
+/* Go Back Button Positioning */
+.check-user-locations-page .go-back-button-container {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+
+.check-user-locations-page .go-back-button-container button {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.check-user-locations-page .go-back-button-container button:hover {
+  background-color: #1e0066;
+}
+
+/* User Data Button Positioning (if needed, bottom-right corner) */
+.user-data-button-container {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.user-data-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-data-button:hover {
+  background-color: #45a049;
+}
+
+.map-button {
+  display: flex;
+  align-items: center;
+  background-color: #007BFF; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.map-button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+.map-button:active {
+  transform: scale(0.98); 
+}
+
+.map-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.check-user-locations-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #eba098;
+  padding: 10px;
+  text-align: center;
+}
+
+.check-user-locations-header {
+  padding: 20px;
+  text-align: center;
+}
+
+.check-user-locations-title {
+  font-family: 'Mali', sans-serif;
+  font-size: 2.5em;
+  color: #eba098;
+  margin: 0;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px;
+}
+
+.user-box {
+  background-color: #fcd3cf;
+  padding: 15px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-box:hover {
+  background-color: #f5bfbf;
+}
+
+.location-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff2f0;
+  border-radius: 10px;
+  font-family: 'Mali', sans-serif;
+}
+
+.map-button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: none;
+  background-color: #eba098;
+  color: white;
+  font-family: 'Mali', sans-serif;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.map-button:hover {
+  opacity: 0.85;
+}
+
+.go-back-footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.go-back-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  width: 70%; /* Adjust width of left side */
+  display: flex;
+  flex-direction: column; /* Stack h3 and p vertically */
+  justify-content: flex-start;
+  text-align: left;
+  padding-right: 0; /* Remove any padding on the right */
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.job-location, .job-dates {
+  font-style: italic;
+  margin: 4px 0;
+  color: #eba098;
+  font-weight: 500;
+}
+
+.meta-card {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 12px;
+  font-family: 'Mali', sans-serif;
+}
+
+.meta-card label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #eba098;
+}
+
+.meta-card p {
+  margin: 0;
+  color: #eba098;
+}

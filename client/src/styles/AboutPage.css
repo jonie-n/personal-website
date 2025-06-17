@@ -1,0 +1,157 @@
+/* Reset body and html to ensure full page usage */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;  /* Ensure body takes full height */
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column; /* Ensure elements stack vertically */
+  justify-content: flex-start; /* Align content at the top */
+  font-family: 'Mali', sans-serif;
+  background-color: #fcd3cf;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Navbar style */
+.navbar {
+  background-color: #eba098;  /* Add background color */
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Set text color */
+  padding: 10px 0; /* Adjust padding for the navbar */
+  position: relative;  /* Ensure navbar stays at the top */
+  width: 100%;  /* Ensure navbar takes the full width */
+  z-index: 1;  /* Ensure navbar is on top of other content */
+}
+
+/* Updated Navbar styles */
+.navbar {
+  background-color: #eba098;
+  display: flex;
+  justify-content: center; /* Center navbar content horizontally */
+  align-items: center; /* Center navbar content vertically */
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar a:hover {
+  color: #eba098;
+}
+
+/* Header styles */
+.about-header {
+  margin-top: 20px;
+}
+
+.about-header-title {
+  color: #eba098;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  text-align: left;  /* Align text to the left */
+}
+
+
+/* Updated entire section styles */
+.about-entire {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Move items towards the top */
+  justify-content: flex-start;
+  gap: 20px;
+  max-height: 620px;
+}
+
+/* Updated left-side (image container) styles */
+.about-left-side {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align image closer to the top */
+  margin-top: 70px; /* Move the image higher */
+}
+
+/* Right side for the text */
+.about-text {
+  text-align: left;  /* Align text to the left */
+  width: 60%;  /* Set width of the text section */
+  height:100%;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+/* Profile image style */
+.brown-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensure the image covers the circle properly */
+}
+
+/* Button styles */
+.about-page button {
+  padding: 12px 24px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  display: inline-flex; /* Flexbox for button */
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mali', sans-serif;
+  color: white;
+  background-color: transparent;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.about-page button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.about-page button:active {
+  transform: scale(0.95);
+}
+
+.about-page button:focus {
+  outline: none;
+}
+
+/* Buttons Section */
+.about-buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Updated Go Back button container */
+.go-back-button-container {
+  position: absolute;
+  bottom: 30px; /* Move button slightly lower */
+  left: 20px;
+}
+
+.about-text h3 {
+  color: #eba098;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 2px;
+}
+
+.about-text p {
+  color:white;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0px;
+  margin-bottom: 10px;
+}

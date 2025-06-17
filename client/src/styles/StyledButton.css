@@ -1,0 +1,25 @@
+.styled-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  font-size: 20px; /* Adjust text size */
+  cursor: pointer;
+  width: 220px;
+  height:70px;
+  text-align: center;  /* Centers the text horizontally */
+  display: inline-flex;      /* Enables Flexbox */
+  justify-content: center;  /* Centers text horizontally */
+  align-items: center;  /* Centers text vertically */
+  font-family: 'Mali', sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover and click effects */
+}
+
+.styled-button:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+  opacity: 0.9; /* Slightly reduce transparency on hover */
+}
+
+.styled-button:active {
+  transform: scale(0.95); /* Slightly shrink button when clicked */
+}

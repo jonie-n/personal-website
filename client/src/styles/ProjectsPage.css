@@ -1,0 +1,122 @@
+.manage-users-page {
+  font-family: 'Mali', sans-serif;
+  height: 100vh;         /* Full viewport height */
+  overflow-y: auto;      /* Enable vertical scrolling */
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+p {
+  color: white;
+  font-weight: lighter;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.manage-users-entire {
+  display: flex;
+  justify-content: space-between; /* Place the left and right side next to each other */
+  align-items: flex-start; /* Align items to the top to avoid extra vertical space */
+  margin-top: 20px;
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Prevent overflow due to padding/margin */
+}
+
+.left {
+  width: 55%; /* Adjust width of left side */
+  display: flex;
+  flex-direction: column; /* Stack h3 and p vertically */
+  justify-content: flex-start;
+  text-align: left;
+  padding-right: 0; /* Remove any padding on the right */
+  margin-left: 40px;
+}
+
+.right {
+  width: 45%; /* Adjust width of right side */
+}
+
+.project-1-image {
+  max-width: 90%; /* Ensure image does not overflow */
+  height: auto;
+  margin-top: 30px;
+}
+
+.manage-users-header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.manage-users-header-title {
+  margin: 0;
+  color: #eba098;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Mali', sans-serif;
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 10px;
+}
+
+.left h3 {
+  margin: 0;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  color: #eba098;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+  font-size: 30px;
+}
+
+.left p {
+  margin: 0;
+  font-weight: 550;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* .go-back-button-container {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+} */
+
+.page-content {
+  flex: 1; /* take up all space above footer */
+}
+
+.go-back-footer {
+  padding: 40px 0;
+  text-align: center;
+  background-color: red; /* or any color if you want a footer background */
+}
+
+.go-back-button-container {
+  /* position: flex; */
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+}
+
