@@ -217,7 +217,7 @@ h2 {
 }
 
 .left {
-  width: 70%; /* Adjust width of left side */
+  width: 95%; /* Adjust width of left side */
   display: flex;
   flex-direction: column; /* Stack h3 and p vertically */
   justify-content: flex-start;

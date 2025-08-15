@@ -2,6 +2,7 @@ import { initializeApp } from "firebase/app";
 import React, { useState } from "react";
 import Dashboard from "./pages/Dashboard";
 import AboutPage from "./pages/AboutPage";
+import Layout from "./pages/Layout";
 
 const firebaseConfig = {
   apiKey: import.meta.env.API_KEY,
@@ -21,10 +22,12 @@ function App() {
   const goToCheckInPage = () => setCurrentPage("checkin");
 
   return (
-    <Dashboard
-      onLogout={handleLogout}
-      onCheckIn={goToCheckInPage}
-    />
+    <Layout>
+      <Dashboard
+        onLogout={handleLogout}
+        onCheckIn={goToCheckInPage}
+      />
+    </Layout>
   );
 }
 

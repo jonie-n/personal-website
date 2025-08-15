@@ -52,7 +52,7 @@ function WorkPage({ onBack, onAbout, onProjects }: WorkPageProps) {
             </div>
           </div>
           <p>
-          Support students in mastering foundational computer science concepts through one-on-one tutoring, debugging guidance, and weekly lab instruction. Lead office hours and collaborative code review sessions to enhance student learning and foster peer discussion. Partner with faculty and fellow TAs to design effective teaching materials, assignments, and review content for a rigorous, theory-driven curriculum.
+          Support students in mastering foundational computer science concepts through one-on-one code reviews, debugging and conceptual guidance, and weekly lab instruction. Lead office hours and collaborative code review sessions to enhance student learning and foster peer discussion. Partner with faculty and fellow TAs to design effective teaching materials, assignments, and review content for a rigorous, theory-driven curriculum.
           </p>
         </div>
         <div className="left">
