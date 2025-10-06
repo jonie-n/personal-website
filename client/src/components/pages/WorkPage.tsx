@@ -40,6 +40,40 @@ function WorkPage({ onBack, onAbout, onProjects }: WorkPageProps) {
         </div>
         <div></div>
         <div className="left">
+          <h3>Hoops Academy - Frontend Web Development Intern</h3>
+          <div className="meta-card">
+            <div>
+              <label>Location:</label>
+              <p>Los Angeles, CA</p>
+            </div>
+            <div>
+              <label>Dates:</label>
+              <p>August 2025 - Present</p>
+            </div>
+          </div>
+          <p>
+          Improved and maintained the company’s public-facing website on Squarespace, enhancing UI/UX and implementing new features with HTML/CSS and third-party integrations. Collaborated with stakeholders to refine requirements and deliver updates that streamlined functionality and elevated the overall user experience.
+          </p>
+        </div>
+        <div></div>
+        <div className="left">
+          <h3>One Percent - Data Structures and Algorithms Tutor</h3>
+          <div className="meta-card">
+            <div>
+              <label>Location:</label>
+              <p>Remote</p>
+            </div>
+            <div>
+              <label>Dates:</label>
+              <p>September 2025 - Present</p>
+            </div>
+          </div>
+          <p>
+          Tutor a college sophomore in data structures and algorithms, covering coding concepts, problem-solving strategies, and course material at a college level. Provide ongoing support to strengthen understanding, build confidence, and improve academic performance.
+          </p>
+        </div>
+        <div></div>
+        <div className="left">
           <h3>Data Structures & Algorithms - Teaching Assistant</h3>
           <div className="meta-card">
             <div>
@@ -48,11 +82,45 @@ function WorkPage({ onBack, onAbout, onProjects }: WorkPageProps) {
             </div>
             <div>
               <label>Dates:</label>
-              <p>January 2025-May 2025</p>
+              <p>January 2025 - May 2025</p>
             </div>
           </div>
           <p>
           Support students in mastering foundational computer science concepts through one-on-one code reviews, debugging and conceptual guidance, and weekly lab instruction. Lead office hours and collaborative code review sessions to enhance student learning and foster peer discussion. Partner with faculty and fellow TAs to design effective teaching materials, assignments, and review content for a rigorous, theory-driven curriculum.
+          </p>
+        </div>
+        <div></div>
+        <div className="left">
+          <h3>Brown University - IgniteCS Volunteer Instructor</h3>
+          <div className="meta-card">
+            <div>
+              <label>Location:</label>
+              <p>Providence, RI</p>
+            </div>
+            <div>
+              <label>Dates:</label>
+              <p>2023 - Present</p>
+            </div>
+          </div>
+          <p>
+          Teach coding and robotics to local elementary students, designing engaging lessons that inspire interest in STEM. Mentor students in foundational programming concepts and hands-on robotics activities.
+          </p>
+        </div>
+        <div></div>
+        <div className="left">
+          <h3>Brown-Rhode Island School of Design Game Developers Club - Programmer</h3>
+          <div className="meta-card">
+            <div>
+              <label>Location:</label>
+              <p>Providence, RI</p>
+            </div>
+            <div>
+              <label>Dates:</label>
+              <p>January 2024 - May 2024</p>
+            </div>
+          </div>
+          <p>
+          Co-developed a 2D hotel-management game in Godot as part of a collaborative student team. Participated in Unity, Unreal, and Blender workshops to strengthen game development and design skills.
           </p>
         </div>
         <div className="left">
@@ -64,7 +132,7 @@ function WorkPage({ onBack, onAbout, onProjects }: WorkPageProps) {
             </div>
             <div>
               <label>Dates:</label>
-              <p>June 2019-May 2023</p>
+              <p>June 2019 - May 2023</p>
             </div>
           </div>
           <p>

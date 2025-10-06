@@ -158,7 +158,7 @@ h2 {
 .check-user-locations-title {
   font-family: 'Mali', sans-serif;
   font-size: 2.5em;
-  color: #eba098;
+  color: #ee6f6f;
   margin: 0;
 }
 
@@ -230,7 +230,7 @@ h2 {
 .job-location, .job-dates {
   font-style: italic;
   margin: 4px 0;
-  color: #eba098;
+  color: #ee6f6f;
   font-weight: 500;
 }
 
