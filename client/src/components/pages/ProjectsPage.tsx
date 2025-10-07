@@ -4,7 +4,8 @@ import { useUser } from "@clerk/clerk-react";
 import wellnestImage from "../../assets/wellnest.png";
 import djMaxImage from "../../assets/djmax.png";
 import valodash from "../../assets/valodash.png";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import motel from "../../assets/motel.png";
+import { FaGithub} from "react-icons/fa";
 
 interface ProjectsPageProps {
   onBack: () => void;
@@ -129,7 +130,7 @@ function ProjectsPage({ onBack, onWorkExperience, onAbout}: ProjectsPageProps) {
           <div className="right">
             <img
               className="project-1-image"
-              src={wellnestImage}
+              src={motel}
               alt="Project1"
             />
           </div>
